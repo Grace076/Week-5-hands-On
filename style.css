@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+   
+    padding:1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*css for login*/
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
+.text-center{
+    text-align: center;
+}
+
+/*css for menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#ff6b81 ;
+}
+.menu ul li:hover{
+   color: #ff4757;
+}
+
+h1{
+    margin-top: 3%;
+}
+
+/*css for main content*/
+.main-content{
+   
+    background-color: #f1f2f6;
+}
+
+.img-responsive{
+    width:100%;
+  
+}
+
+/*
+img{
+    height: 400px;
+}*/
+
+.tbl-full{
+    width:100%;
+   
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding:1px;
+    text-align: left;
+}
+
+
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    text-decoration: none;
+    color: #f1f2f6;
+    font-weight: bold;
+    padding: 1%;
+   
+}
+.btn-primary:hover{
+    background-color:"#1742fa" ;
+
+}
+
+.btn-secondary{
+    background-color: #2ed573;
+    text-decoration: none;
+    color: #f1f2f6;
+    font-weight: bold;
+    padding: 1%;
+   
+}
+.btn-secondary:hover{
+    background-color:"#2ed573";
+
+}  
+.btn-danger{
+    background-color: #ff4757;
+    text-decoration: none;
+    color: #f1f2f6;
+    font-weight: bold;
+    padding: 1%;
+   
+}
+.btn-danger:hover{
+    background-color:#ff6b81;
+
+}
+
+.float-container{
+    position: relative;
+
+}
+.index-img{
+    background-image: url("img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% ;
+}
+
+.box-3{
+    border:1px solid black;
+    width: 28%;
+    float:left;
+    margin: 2%;
+}
+
+.clearfix{
+    clear:both;
+    float:none;
+
+}
+
+
+    /*css for footer*/
+.footer{
+        background-color: #ff4757;
+        color: white;
+    }
+
+    /*css for small  media screen*/
+    @media only screen and (max-width: 768px) {
+        /* For menu: */
+        .menu ul {
+          text-align: center;       
+
+        }
+        .menu ul li input{
+            text-align: center;
+        }
+
+        h1{
+           
+            margin-top: 6%;
+        }
+       
+        .login input{
+            text-align: center;
+            width: 90%; 
+            margin-top: 8%; 
+
+        }
+
+        .box-3{
+            width: 95%;
+            margin-bottom: 8%;
+        }
+
+
+       .tbl-full tr th{
+          width:80%;
+          padding:1%;
+        }
+        
+        .tbl-full tr td{
+            width:80%;
+            padding:1%;
+            margin-right: 10%;
+          }
+         
+
+      }
